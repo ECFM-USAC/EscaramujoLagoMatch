@@ -1,0 +1,147 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ProjectSpecificParts
+LIBS:sma_edge
+LIBS:EscaramujoLagoMatch-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L GND #PWR?
+U 1 1 57D2EFA9
+P 3600 3400
+F 0 "#PWR?" H 3600 3150 50  0001 C CNN
+F 1 "GND" H 3600 3250 50  0000 C CNN
+F 2 "" H 3600 3400 50  0000 C CNN
+F 3 "" H 3600 3400 50  0000 C CNN
+	1    3600 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 57D2F06E
+P 3200 3200
+F 0 "R?" V 3280 3200 50  0000 C CNN
+F 1 "R" V 3200 3200 50  0000 C CNN
+F 2 "" V 3130 3200 50  0000 C CNN
+F 3 "" H 3200 3200 50  0000 C CNN
+	1    3200 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 57D2F0A9
+P 2900 3250
+F 0 "C?" H 2925 3350 50  0000 L CNN
+F 1 "C" H 2925 3150 50  0000 L CNN
+F 2 "" H 2938 3100 50  0000 C CNN
+F 3 "" H 2900 3250 50  0000 C CNN
+	1    2900 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C?
+U 1 1 57D2F112
+P 2450 3200
+F 0 "C?" H 2475 3300 50  0000 L CNN
+F 1 "CP" H 2475 3100 50  0000 L CNN
+F 2 "" H 2488 3050 50  0000 C CNN
+F 3 "" H 2450 3200 50  0000 C CNN
+	1    2450 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L JACK_TRS_6PINS J?
+U 1 1 57D2F1C8
+P 4900 4050
+F 0 "J?" H 4900 4450 50  0000 C CNN
+F 1 "JACK_TRS_6PINS" H 4850 3750 50  0000 C CNN
+F 2 "" H 5000 3900 50  0000 C CNN
+F 3 "" H 5000 3900 50  0000 C CNN
+	1    4900 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L RJ45 J?
+U 1 1 57D2F244
+P 6050 4450
+F 0 "J?" H 6250 4950 50  0000 C CNN
+F 1 "RJ45" H 5900 4950 50  0000 C CNN
+F 2 "" H 6050 4450 50  0000 C CNN
+F 3 "" H 6050 4450 50  0000 C CNN
+	1    6050 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L MAX662A U?
+U 1 1 57D311AF
+P 2500 4250
+F 0 "U?" H 2500 4700 60  0000 C CNN
+F 1 "MAX662A" H 2500 4300 60  0000 C CNN
+F 2 "" H 2500 4150 60  0000 C CNN
+F 3 "" H 2500 4150 60  0000 C CNN
+	1    2500 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L SMA_EDGE SMA_IN
+U 1 1 57D84BF4
+P 2850 5250
+F 0 "SMA_IN" H 3000 5550 60  0000 C CNN
+F 1 "SMA_EDGE" H 3000 5450 60  0000 C CNN
+F 2 "" H 2850 5250 60  0000 C CNN
+F 3 "" H 2850 5250 60  0000 C CNN
+	1    2850 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L SMA_EDGE SMA_OUT
+U 1 1 57D84C67
+P 3600 5250
+F 0 "SMA_OUT" H 3750 5550 60  0000 C CNN
+F 1 "SMA_EDGE" H 3750 5450 60  0000 C CNN
+F 2 "" H 3600 5250 60  0000 C CNN
+F 3 "" H 3600 5250 60  0000 C CNN
+	1    3600 5250
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
