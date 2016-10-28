@@ -1,4 +1,4 @@
-update=13/09/2016 12:43:01
+update=12/10/2016 11:26:14
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,4 @@ LibName28=contrib
 LibName29=valves
 LibName30=ProjectSpecificParts
 LibName31=sma_edge
+LibName32=w_connectors
