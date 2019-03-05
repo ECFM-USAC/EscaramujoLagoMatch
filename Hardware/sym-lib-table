@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name EscaramujoLagoMatch-rescue)(type Legacy)(uri ${KIPRJMOD}/EscaramujoLagoMatch-rescue.lib)(options "")(descr ""))
+  (lib (name ProjectSpecificParts)(type Legacy)(uri ${KIPRJMOD}/ProjectSpecificParts.lib)(options "")(descr ""))
+  (lib (name sma_edge)(type Legacy)(uri ${KIPRJMOD}/sma_edge.lib)(options "")(descr ""))
+  (lib (name w_connectors)(type Legacy)(uri ${KIPRJMOD}/w_connectors.lib)(options "")(descr ""))
+)
